@@ -1,0 +1,25 @@
+PODS:
+  - ObjectMapper (0.19)
+  - SwiftHTTP (1.0.2)
+  - SwiftyJSON (2.3.0)
+
+DEPENDENCIES:
+  - ObjectMapper (~> 0.19)
+  - SwiftHTTP (~> 1.0.0)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 83dc3138b14571200ea7f070933a2a510491e997
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  ObjectMapper: a88114e5df20f055da63029f25cbc01014847c91
+  SwiftHTTP: 6d8ca031a9ce613a01e8f18b497503887b0b50c0
+  SwiftyJSON: cacfe0373d584585716bd1d43202c24cc66afd65
+
+COCOAPODS: 0.39.0
