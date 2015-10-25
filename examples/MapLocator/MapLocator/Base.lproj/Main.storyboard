@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1uZ-7S-u0a">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Map Places-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MapLocator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="HZT-mb-6rv">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HZT-mb-6rv" secondAttribute="bottom" id="IGC-jP-cxb"/>
+                            <constraint firstItem="HZT-mb-6rv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Pi9-Vj-Smo"/>
+                            <constraint firstAttribute="trailing" secondItem="HZT-mb-6rv" secondAttribute="trailing" id="l8X-AO-UPA"/>
+                            <constraint firstItem="HZT-mb-6rv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="nsK-Hx-Q8e"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Map Places" id="fDi-0k-QKp">
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="mB9-5o-kU7">
+                            <connections>
+                                <action selector="showSearchBar:" destination="BYZ-38-t0r" id="ATs-SC-opJ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="mapView" destination="HZT-mb-6rv" id="TWc-fO-WGr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1081" y="429"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="LSJ-CC-wef">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1uZ-7S-u0a" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7yh-e7-f2e">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="UMJ-6v-JRz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1ua-Cx-Dmp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="295" y="1089"/>
+        </scene>
+    </scenes>
+</document>
