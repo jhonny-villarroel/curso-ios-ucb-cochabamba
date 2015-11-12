@@ -1,0 +1,10 @@
+PODS:
+  - AlecrimCoreData (4.0.2)
+
+DEPENDENCIES:
+  - AlecrimCoreData (~> 4.0)
+
+SPEC CHECKSUMS:
+  AlecrimCoreData: 85c2a370f51cf258a0d68ca64f9ed7b0a6021e38
+
+COCOAPODS: 0.39.0
