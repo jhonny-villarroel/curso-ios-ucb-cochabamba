@@ -23,3 +23,8 @@ https://cocoapods.org/
 
 # Example CoreData 
 https://drive.google.com/file/d/0B-vmTDPX4A-0ekctQWJ5S215MDQ/view?usp=sharing
+
+# Code Retrieve Element
+
+https://docs.google.com/document/d/1LGL62P6TXYlwiFXiUpjbAL9fE7uVmL4Ov8BpAwYzkiM/edit?usp=sharing
+
