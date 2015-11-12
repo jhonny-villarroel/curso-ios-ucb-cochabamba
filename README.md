@@ -21,3 +21,5 @@ http://code.runnable.com/Viys561eZqI56tJ4/curso-ios-tarija-for-express-and-node-
 ## Cocoa Pods
 https://cocoapods.org/
 
+# Example CoreData 
+https://drive.google.com/file/d/0B-vmTDPX4A-0ekctQWJ5S215MDQ/view?usp=sharing
