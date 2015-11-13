@@ -33,5 +33,9 @@ https://docs.google.com/document/d/1LGL62P6TXYlwiFXiUpjbAL9fE7uVmL4Ov8BpAwYzkiM/
 
 https://docs.google.com/document/d/1nv31AH7GE-mOz-3n2c0fl_D59w0097oaFXOWEXsakKI/edit?usp=sharing
 
+# Food Track MAPKit
+https://docs.google.com/document/d/1dwuJ92s-ZWJceMS_oYUFDk_QkatOuzhRw8SpF2JxKk4/edit?usp=sharing
 
+# Food Track Rest
+https://docs.google.com/document/d/1X5psjrSkAyHdA5QzGkr3_aiK-9b7GIrPwgnzV3Tke1c/edit?usp=sharing
 
