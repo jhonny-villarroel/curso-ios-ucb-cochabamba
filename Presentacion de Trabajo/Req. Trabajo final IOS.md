@@ -13,7 +13,7 @@
  			explicando el projecto)
  
  ## == Fecha Presentacion ===
- ###Domingo 15 de Noviembre : 23:59
+ ### 12 - Diciembre - 2015
 
  #== Datos personales ==
 
