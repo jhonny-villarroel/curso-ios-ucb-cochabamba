@@ -12,6 +12,7 @@ Presentacion de Trabajo 12 - Diciembre - 2015
 - Correo [IOS - your Name]
 - Un Video del funcionamiento
 - Source Code .zip url github
+#### Enviar a este Correo: jvm.corp@gmail.com
 
 Curso de programacion de Aplicaciones IOS
 =========================================
