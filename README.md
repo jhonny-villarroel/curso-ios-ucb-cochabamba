@@ -1,5 +1,17 @@
 Presentacion de Trabajo 12 - Diciembre - 2015
 ==============================================
+##Requistos:
+
+####Crear app IOS  por lo menos una de las siguientes características:
+
+- Core Data
+- MapKit
+- Rest
+
+####Formato de presentacion:
+- Correo [IOS - your Name]
+- Un Video del funcionamiento
+- Source Code .zip url github
 
 Curso de programacion de Aplicaciones IOS
 =========================================
